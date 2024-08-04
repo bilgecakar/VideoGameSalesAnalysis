@@ -17,6 +17,33 @@ Fields include:
 - Other_Sales : Sales in the rest of the world (in millions)
 - Global_Sales : Total worldwide sales.
 
+
+<br><br>
+To execute this SQL statement in pgAdmin:
+
+- Open pgAdmin and connect to your database.
+- Right-click on your database and select Query Tool.
+- Copy and paste the SQL statement into the query window.
+ ```sql
+CREATE TABLE video_game_sales (
+    rank INT,
+    name VARCHAR(255),
+    platform VARCHAR(50),
+    year INT,
+    genre VARCHAR(50),
+    publisher VARCHAR(100),
+    na_sales FLOAT,
+    eu_sales FLOAT,
+    jp_sales FLOAT,
+    other_sales FLOAT,
+    global_sales FLOAT
+);
+```
+- Click the Execute button (or press F5) to run the query and create the table.
+- Import `video_game_sales.cv` 
+
+
+<br><br>
  Here are some example questions that you can use for data analysis with your `video_game_sales` table in PostgreSQL.
 
  1. What are the top 10 games by global sales?
