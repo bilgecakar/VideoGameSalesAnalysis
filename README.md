@@ -158,3 +158,10 @@ FROM video_game_sales
 ORDER BY eu_jp_sales DESC
 LIMIT 5
 ```
+
+<br><br>
+## Tableau Video Game Sales Dashboard Link:
+https://public.tableau.com/app/profile/bilge.akar/viz/Book1_17228780802550/Video_game_sale_dashboard
+
+
+![Video_game_sale_dashboard](https://github.com/user-attachments/assets/e966ab99-0a96-4788-b34d-b112528fe3b1)
